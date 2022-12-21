@@ -1,0 +1,68 @@
+.botones:hover{
+    color: rgba(213,191,117,255);
+}
+.cards{
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+
+.cards .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.cards .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.cards .front img{
+    position: absolute;
+    object-fit: cover;
+}
+
+.cards .front h3{
+    position: absolute;
+    bottom:150px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #000;
+    text-align: center;
+}
+
+.cards .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: #181818;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.cards:hover .front{
+    transform:  perspective(600px) rotateY(180deg);
+}
+
+.cards:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
