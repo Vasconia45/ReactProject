@@ -11,61 +11,72 @@ export const Productos = () => {
             <div className='d-flex justify-content-around'>
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
-                        <Card.Title>Card Title</Card.Title>
+                    <Card.Body className='border-top text-center'>
+                        <Card.Title className=''>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Card.Text>
+                            X€
+                        </Card.Text>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
             </div>
@@ -73,61 +84,71 @@ export const Productos = () => {
             <div className='d-flex justify-content-around mt-3'>
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
 
                 <Card className='reactCards' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Imagen1} />
-                    <Card.Body className='border-top'>
+                    <Card.Body className='border-top text-center'>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
+                        </Card.Text><Card.Text>
+                            X€
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark"><i class="bi bi-cart4 botones"></i></Button>
                     </Card.Body>
                 </Card>
             </div>

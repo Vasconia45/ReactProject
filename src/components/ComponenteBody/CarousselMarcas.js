@@ -5,6 +5,8 @@ import Imagen2 from './../../assets/img/marcas/fiji.jpg'
 import Imagen3 from './../../assets/img/marcas/lays.png'
 import Imagen4 from './../../assets/img/marcas/walkers.jpg'
 import Imagen5 from './../../assets/img/marcas/5J.png'
+import Imagen6 from './../../assets/img/marcas/enate.png'
+import Imagen7 from './../../assets/img/marcas/moet.jpg'
 
 export const CarousselMarcas = () => {
     return (
@@ -79,37 +81,37 @@ export const CarousselMarcas = () => {
                         <div className="cards-wrapper d-flex justify-content-around">
                             <div className="cards">
                                 <div className="face front">
-                                    <img src={Imagen1} className="w-100 h-100" valt="" />
-                                </div>
-                                <div className="face back">
-                                    <h3 className="mt-3 texto">CocaCola</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique possimus dolorem
-                                        soluta
-                                        id sit
-                                        aliquid, unde fugiat, debitis porro earum minima quaerat voluptas, totam ad tempore
-                                        illum
-                                        nulla nesciunt
-                                        voluptate.</p>
-                                </div>
-                            </div>
-                            <div className="cards">
-                                <div className="face front">
-                                    <img src={Imagen1} className="w-100 h-100" valt="" />
-                                </div>
-                                <div className="face back">
-                                    <h3 className="mt-3 texto">CocaCola</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique possimus dolorem
-                                        soluta
-                                        id sit
-                                        aliquid, unde fugiat, debitis porro earum minima quaerat voluptas, totam ad tempore
-                                        illum
-                                        nulla nesciunt
-                                        voluptate.</p>
-                                </div>
-                            </div>
-                            <div className="cards">
-                                <div className="face front">
                                     <img src={Imagen5} className="w-100 h-100" valt="" />
+                                </div>
+                                <div className="face back">
+                                    <h3 className="mt-3 texto">CocaCola</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique possimus dolorem
+                                        soluta
+                                        id sit
+                                        aliquid, unde fugiat, debitis porro earum minima quaerat voluptas, totam ad tempore
+                                        illum
+                                        nulla nesciunt
+                                        voluptate.</p>
+                                </div>
+                            </div>
+                            <div className="cards">
+                                <div className="face front">
+                                    <img src={Imagen6} className="w-100 h-100" valt="" />
+                                </div>
+                                <div className="face back">
+                                    <h3 className="mt-3 texto">CocaCola</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique possimus dolorem
+                                        soluta
+                                        id sit
+                                        aliquid, unde fugiat, debitis porro earum minima quaerat voluptas, totam ad tempore
+                                        illum
+                                        nulla nesciunt
+                                        voluptate.</p>
+                                </div>
+                            </div>
+                            <div className="cards">
+                                <div className="face front">
+                                    <img src={Imagen7} className="w-100 h-100" valt="" />
                                 </div>
                                 <div className="face back">
                                     <h3 className="mt-3 texto">5J</h3>
